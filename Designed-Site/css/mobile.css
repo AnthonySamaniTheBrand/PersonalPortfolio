@@ -1,0 +1,25 @@
+@media only screen and (max-width: 950px) {
+    div.container-fluid {
+      padding: 15px;
+    }
+    .main-header-content h1 {
+      font-size: 3.5em;
+    }
+    .main-header-content {
+        top: 14vh;
+    }
+    #news-hdr {
+      margin: 25px;
+    }
+    #about-img-container{
+      margin-top: -200px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .main-header-content h1 {
+      font-size: 2.5em;
+    }
+    .main-header-content {
+        top: 14vh;
+    }
+  }

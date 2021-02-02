@@ -1,0 +1,63 @@
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+p, a  {
+    font-family: 'Raleway', sans-serif;
+}
+.navbar {
+    min-width: 100% !important;
+}
+a.nav-link{
+    text-decoration: none;
+    color: black;
+}
+div.container-fluid {
+    padding: 120px;
+}
+.main-header {
+    min-height: 100vh;
+    min-width: 100%;
+}
+.main-header-content {
+    position: relative; 
+    max-width: 750px;
+}
+/*main header sizing. Has mobile sizing*/
+.main-header-content h1 {
+    font-size: 5em;
+}
+#header-sub-txt {
+    font-size: 1.4em;
+}
+.intro-txt {
+    min-height: 350px;
+    text-align: center;
+    max-width: 750px;
+ 
+}
+/*main styling for all full width portfolio sections. use id to change bg img*/
+.portfolio-section {
+    min-width: 100vw;
+    padding-left: -120px;
+    overflow: hidden;
+    min-height: 950px;
+    /*background-image: url("../img/MakeShiftExport.png");*/
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+.portfolio-contents {
+    padding: 300px 25px;
+  }
+#secondBase{
+    /*background-image: url("../img/SaltLakeCityCharityScreenshot.png");*/
+    background-color: dimgrey;
+}
+#thirdBase{
+    /*background-image: url("../img/SamaniDevelopmentWebsite.png");*/
+    background-color:grey;
+}
