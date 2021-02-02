@@ -7,10 +7,17 @@ p, a  {
 }
 .navbar {
     min-width: 100% !important;
+    background-color: black !important;
+    position: fixed;
+    z-index: 1;
 }
 a.nav-link{
     text-decoration: none;
     color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif; 
 }
 div.container-fluid {
     padding: 120px;
@@ -18,10 +25,17 @@ div.container-fluid {
 .main-header {
     min-height: 100vh;
     min-width: 100%;
+    background-image: url(../img/Portfolio-Pics/BG-osman-rana.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
 }
 .main-header-content {
     position: relative; 
     max-width: 750px;
+    margin-top: 15%;
 }
 /*main header sizing. Has mobile sizing*/
 .main-header-content h1 {
