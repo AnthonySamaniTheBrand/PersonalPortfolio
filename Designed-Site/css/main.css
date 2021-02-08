@@ -66,12 +66,36 @@ div.container-fluid {
 }
 .portfolio-contents {
     padding: 300px 25px;
+    
   }
 #secondBase{
-    /*background-image: url("../img/SaltLakeCityCharityScreenshot.png");*/
-    background-color: dimgrey;
+   background-image: url("../img/Portfolio-Pics/EbonyAndCompanyFullImg.png");
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+
 }
 #thirdBase{
-    /*background-image: url("../img/SamaniDevelopmentWebsite.png");*/
-    background-color:grey;
+    background-image: url("../img/SamaniDevelopmentWebsite.png");
+    background-position: bottom;
+
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/Portfolio-Pics/parallax-michail-sapiton-.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #kingsmenPort {
+      background-image: url("../img/Portfolio-Pics/KingsmenCapitalBGImgFull.JPG");
+      background-position: cover;
+      background-repeat: no-repeat;
+  }
